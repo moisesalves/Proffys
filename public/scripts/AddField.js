@@ -1,8 +1,6 @@
-//Procurar o botão 
-//Quando clicar no botão
+//Clique do botão "Novo horário"
 document.querySelector("#add-time").addEventListener('click', cloneField)
 
-//Executar uma acão
 function cloneField(){
 
         //Duplicar os campos. Que campos?
@@ -17,7 +15,7 @@ function cloneField(){
             field.value = ""
         })
 
-            //Colocar na página. Onde?
+         //Colocar na página. Onde?
         document.querySelector('#schedule-items').appendChild(newFieldContainer)  
 
 }
